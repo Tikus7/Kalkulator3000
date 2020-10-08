@@ -1,0 +1,14 @@
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\bin\Debug\netstandard2.0\Kalkulator3000.deps.json
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\bin\Debug\netstandard2.0\Kalkulator3000.dll
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\bin\Debug\netstandard2.0\ref\Kalkulator3000.dll
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\bin\Debug\netstandard2.0\Kalkulator3000.pdb
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\Kalkulator3000.csprojAssemblyReference.cache
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\Kalkulator3000.csproj.CoreCompileInputs.cache
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\Kalkulator3000.AssemblyInfoInputs.cache
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\Kalkulator3000.AssemblyInfo.cs
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\Kalkulator3000.dll
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\ref\Kalkulator3000.dll
+C:\Users\tobik\source\repos\Kalkulator3000\Kalkulator3000\Kalkulator3000\obj\Debug\netstandard2.0\Kalkulator3000.pdb

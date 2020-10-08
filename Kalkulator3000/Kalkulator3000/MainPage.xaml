@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Kalkulator3000.MainPage">
+    <Grid RowSpacing="0" ColumnSpacing="0" Margin="0" Padding="0" BackgroundColor="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Padding="20,0,20,0" BackgroundColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="End" FontSize="48" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="5" x:Name="DisplayMath"></Label>
+
+        <Button Clicked="DeleteAll" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0" CornerRadius="0" Grid.Row="5" Grid.Column="0" Text="C"></Button>
+        <Button Clicked="DelLastChar" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="5" Grid.Column="1" Text="Del"></Button>
+        <Button Clicked="ShowAnswer" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="5" Grid.Column="2" Text="ANS"></Button>
+        <Button Clicked="OnClick" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="5" Grid.Column="3" Text="/"></Button>
+
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="6" Grid.Column="0" Text="7"></Button>
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="6" Grid.Column="1" Text="8"></Button>
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="6" Grid.Column="2" Text="9"></Button>
+        <Button Clicked="OnClick" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="6" Grid.Column="3" Text="*"></Button>
+
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="7" Grid.Column="0" Text="4"></Button>
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="7" Grid.Column="1" Text="5"></Button>
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="7" Grid.Column="2" Text="6"></Button>
+        <Button Clicked="OnClick" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="7" Grid.Column="3" Text="-"></Button>
+
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="8" Grid.Column="0" Text="1"></Button>
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="8" Grid.Column="1" Text="2"></Button>
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="8" Grid.Column="2" Text="3"></Button>
+        <Button Clicked="OnClick" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="8" Grid.Column="3" Text="+"></Button>
+
+        <Button Clicked="OnClick" FontSize="30" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="9" Grid.Column="1" Text="0"></Button>
+        <Button Clicked="OnClick" FontSize="30" TextColor="LightBlue"  BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="9" Grid.Column="2" Text="."></Button>
+        <Button Clicked="Evaluate" FontSize="30" TextColor="LightBlue" BackgroundColor="White" BorderWidth="0"  CornerRadius="0" Grid.Row="9" Grid.Column="3" Text="="></Button>
+    </Grid>
+</ContentPage>
