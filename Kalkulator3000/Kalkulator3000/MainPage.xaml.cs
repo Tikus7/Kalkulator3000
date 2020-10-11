@@ -64,7 +64,7 @@ namespace Kalkulator3000
             }
             finally
             {
-                if (dt.Compute(MathProblem, null).ToString() == "+nekonečno")
+                if (dt.Compute(MathProblem, null).ToString() == "+nekonečno" || dt.Compute(MathProblem, null).ToString() == "Infinity")
                 {
                     MathProblem = "";
                     DisplayMath.Text = "Error";
@@ -72,8 +72,9 @@ namespace Kalkulator3000
                 }
                 if (success)
                 {
+                    System.Diagnostics.Debug.WriteLine(dt.Compute(MathProblem, null).ToString());
                     MathProblem = dt.Compute(MathProblem, null).ToString();
-                    Ans = dt.Compute(MathProblem, null).ToString();
+                    Ans = MathProblem;
                 }
             }
         }
